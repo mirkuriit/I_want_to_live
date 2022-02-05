@@ -19,6 +19,6 @@ public class Employee {
 
     @Override
     public String toString() {
-        return String.format("%s %s %s, %s, %s.%s.%s", name, surname, patronymic, number, year, month, day);
+        return String.format("%s %s %s, %s, %s.%s.%s", name, patronymic, surname, number, year, month, day);
     }
 }
